@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="github" 
+        fetch="https://github.com" />
+
+    <remote name="gitlab"  
+        fetch="https://gitlab.com" />
+
+    <remote name="xtended" 
+        fetch="https://github.com/Project-Xtended" 
+        revision="refs/heads/xr" />
+
+    <remote name="Xtended-Devices" 
+        fetch="https://github.com/Xtended-Devices" 
+        revision="refs/heads/xr" />
+
+    <remote name="temp" 
+        fetch="https://github.com/Xtended-R" 
+        revision="refs/heads/xr" />
+
+    <!-- General Repos -->
+    <project path="manifest" name="manifest" remote="temp" />
+    <project path="art" name="art" remote="temp" />
+    <project path="bionic" name="bionic" remote="temp" />
+
+    <!-- Build Repos -->
+    <project path="build/make" name="build_make" remote="temp" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project path="build/soong" name="build_soong"  remote="temp" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
+    <!-- device Repos -->
+    <project path="device/xtended/sepolicy" name="device_xtended_sepolicy" remote="temp" />
+    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="temp" />
+
+    <!-- External Repos -->
+    <project path="external/guice" name="external_guice" remote="temp" />
+    <project path="external/selinux" name="external_selinux" remote="temp" />
+    <project path="external/libcxx" name="external_libcxx" remote="temp" />
+    <project path="external/tinycompress" name="external_tinycompress" remote="temp" />
+
+    <!-- Frameworks repos -->
+    <project path="frameworks/av" name="frameworks_av" remote="temp" />
+    <project path="frameworks/base" name="frameworks_base" remote="temp" />
+    <project path="frameworks/native" name="frameworks_native" remote="temp" />
+
+    <!-- Hardware Repos -->
+    <project path="hardware/xtended/interfaces" name="hardware_xtended_interfaces" remote="temp" />
+    <project path="hardware/libhardware" name="hardware_libhardware" remote="temp" />
+    <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="temp" />
+
+    <!-- Packages Repos -->
+    <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="temp" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings"  remote="temp" />
+
+    <!--Prebuilts -->
+    <project path="prebuilts/tools-xtended" name="prebuilts_tools-xtended" remote="temp" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="temp" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="temp" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="temp" clone-depth="1" />
+
+    <!-- System Repos -->
+    <project path="system/apex" name="system_apex" remote="temp" />
+    <project path="system/bt" name="system_bt" remote="temp" />
+    <project path="system/core" name="system_core" remote="temp" />
+    <project path="system/incremental_delivery" name="system_incremental_delivery" remote="temp" />
+
+    <!--Tools repos-->
+    <project path="tools/metalava" name="tools_metalava" remote="temp" />
+
+    <!-- Vendor Repo -->
+    <project path="vendor/xtended" name="vendor_xtended" remote="temp" />
+
+</manifest>
