@@ -48,6 +48,7 @@
     <project path="external/selinux" name="external_selinux" remote="temp" />
     <project path="external/libcxx" name="external_libcxx" remote="temp" />
     <project path="external/tinycompress" name="external_tinycompress" remote="temp" />
+    <project path="external/json-c" name="external_json-c" remote="temp" />
 
     <!-- Frameworks repos -->
     <project path="frameworks/av" name="frameworks_av" remote="temp" />
@@ -62,6 +63,7 @@
     <!-- Packages Repos -->
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="temp" />
     <project path="packages/apps/Settings" name="packages_apps_Settings"  remote="temp" />
+    <project path="packages/apps/Traceur" name="packages_apps_Traceur"  remote="temp" />
 
     <!--Prebuilts -->
     <project path="prebuilts/tools-xtended" name="prebuilts_tools-xtended" remote="temp" clone-depth="1" />
@@ -80,5 +82,8 @@
 
     <!-- Vendor Repo -->
     <project path="vendor/xtended" name="vendor_xtended" remote="temp" />
+    <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="temp" />
+    <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="temp" />
+    
 
 </manifest>
