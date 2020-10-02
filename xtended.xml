@@ -53,6 +53,9 @@
     <project path="external/tinycompress" name="external_tinycompress" remote="temp" />
     <project path="external/json-c" name="external_json-c" remote="temp" />
     <project path="external/zlib" name="external_zlib" remote="temp" />
+    <project path="external/libpng" name="external_libpng" remote="temp" />
+    <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="temp" />
+    <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="temp" />
 
     <!-- Frameworks repos -->
     <project path="frameworks/av" name="frameworks_av" remote="temp" />
