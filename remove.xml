@@ -94,6 +94,8 @@
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
     <remove-project name="platform/hardware/libhardware_legacy" />
+    <remove-project name="platform/hardware/nxp/nfc" />
+    <remove-project name="platform/hardware/ril" />
 
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Browser2" />
@@ -113,12 +115,14 @@
     <remove-project name="platform/packages/apps/SpareParts" />
     <remove-project name="platform/packages/apps/Terminal" />
     <remove-project name="platform/packages/apps/Test/connectivity" />
+    <remove-project name="platform/packages/apps/ThemePicker" />
     <remove-project name="platform/packages/apps/Traceur" />
     <remove-project name="platform/packages/apps/WallpaperPicker" />
     <remove-project name="platform/packages/modules/TestModule" />
+    <remove-project name="platform/packages/providers/DownloadProvider" />
     <remove-project name="platform/packages/screensavers/Basic" />
     <remove-project name="platform/packages/screensavers/PhotoTable" />
-    <remove-project name="platform/packages/providers/DownloadProvider" />
+    <remove-project name="platform/packages/services/Telephony" />    
 
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
@@ -140,7 +144,10 @@
     <remove-project name="platform/system/bt" />
     <remove-project name="platform/system/core" />
     <remove-project name="platform/system/incremental_delivery" />
+    <remove-project name="platform/system/libufdt" />
     <remove-project name="platform/system/sepolicy" />
+    <remove-project name="platform/system/tools/mkbootimg" />
+    <remove-project name="platform/system/update_engine" />
     <remove-project name="platform/system/vold" />
 
     <!--Tools-->
