@@ -50,6 +50,7 @@
     <!-- External Repos -->
     <project path="external/guice" name="external_guice" remote="temp" />
     <project path="external/selinux" name="external_selinux" remote="temp" />
+    <project path="external/sqlite" name="external_sqlite" remote="temp" />
     <project path="external/libcxx" name="external_libcxx" remote="temp" />
     <project path="external/tinycompress" name="external_tinycompress" remote="temp" />
     <project path="external/json-c" name="external_json-c" remote="temp" />
