@@ -9,7 +9,7 @@ A ROM Based on AOSP, with features from almost all Custom ROMs available.
 To initialize your local repository, use this command:
 -----------------------------------------------------
 
-    repo init -u https://github.com/Xtended-R/manifest.git -b xr
+    repo init -u https://github.com/Xtended-R/manifest.git -b xr-exp
 
 To sync the repository, use this command:
 -----------------------------------------

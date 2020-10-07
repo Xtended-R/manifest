@@ -49,6 +49,7 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
+<!--
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" remote="temp" revision="xr-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="temp" revision="xr-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" remote="temp" revision="xr-caf-msm8996" />
@@ -56,10 +57,10 @@
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" revision="lineage-17.1" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" revision="lineage-17.1" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="temp" revision="xr-caf" />
-
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" revision="lineage-17.1" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage" revision="lineage-17.1" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage" revision="lineage-17.1" />
+-->
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lineage" revision="lineage-17.1" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="lineage" revision="lineage-17.1" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage"  revision="lineage-17.1"/>
