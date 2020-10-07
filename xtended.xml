@@ -75,6 +75,8 @@
     <!-- Packages Repos -->
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="temp" />
     <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="temp" />
+    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="temp" />
+    <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="temp" />
     <project path="packages/apps/Settings" name="packages_apps_Settings"  remote="temp" />
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence"  remote="temp" />
     <project path="packages/apps/Traceur" name="packages_apps_Traceur"  remote="temp" />
@@ -82,6 +84,7 @@
     <project path="packages/apps/Xtensions" name="packages_apps_Xtensions"  remote="temp" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider"  remote="temp" />
     <project path="packages/services/Telephony" name="packages_services_Telephony"  remote="temp" />
+    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="temp" />
 
     <!--Prebuilts -->
     <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="temp" clone-depth="1" />
