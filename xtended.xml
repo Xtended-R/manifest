@@ -20,7 +20,7 @@
         revision="refs/heads/xr" />
 
     <!-- General Repos -->
-    <project path="manifest" name="manifest" remote="temp" />
+    <project path="manifest" name="manifest" remote="temp" revision="xr-test"/>
     <project path="art" name="art" remote="temp" />
     <project path="bootable/recovery" name="bootable_recovery" remote="temp" />
     <project path="bionic" name="bionic" remote="temp" />
@@ -45,10 +45,10 @@
     <project path="development" name="development" remote="temp" />
 
     <!-- device Repos -->
-    <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="temp" />
+    <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="temp" revision="xr-test" />
     <project path="device/xtended/sepolicy" name="device_xtended_sepolicy" remote="temp" />
     <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="temp" />
-    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="temp" />
+    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="temp" revision="xr-test" />
 
     <!-- External Repos -->
     <project path="external/guice" name="external_guice" remote="temp" />
@@ -56,7 +56,6 @@
     <project path="external/sqlite" name="external_sqlite" remote="temp" />
     <project path="external/libcxx" name="external_libcxx" remote="temp" />
     <project path="external/tinycompress" name="external_tinycompress" remote="temp" />
-    <project path="external/json-c" name="external_json-c" remote="temp" />
     <project path="external/zlib" name="external_zlib" remote="temp" />
     <project path="external/libpng" name="external_libpng" remote="temp" />
     <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="temp" />
@@ -64,7 +63,7 @@
 
     <!-- Frameworks repos -->
     <project path="frameworks/av" name="frameworks_av" remote="temp" />
-    <project path="frameworks/base" name="frameworks_base" remote="temp" />
+    <project path="frameworks/base" name="frameworks_base" remote="temp" revision="xr-exp" />
     <project path="frameworks/native" name="frameworks_native" remote="temp" />
 
     <!-- Hardware Repos -->
@@ -113,7 +112,5 @@
     <!-- Vendor Repo -->
     <project path="vendor/xtended" name="vendor_xtended" remote="temp" />
     <project path="vendor/xtras" name="vendor_xtras" remote="temp" />
-    <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="temp" />
-    <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="temp" />
     
 </manifest>
