@@ -56,7 +56,6 @@
     <project path="external/sqlite" name="external_sqlite" remote="temp" />
     <project path="external/libcxx" name="external_libcxx" remote="temp" />
     <project path="external/tinycompress" name="external_tinycompress" remote="temp" />
-    <project path="external/json-c" name="external_json-c" remote="temp" />
     <project path="external/zlib" name="external_zlib" remote="temp" />
     <project path="external/libpng" name="external_libpng" remote="temp" />
     <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="temp" />
@@ -113,7 +112,5 @@
     <!-- Vendor Repo -->
     <project path="vendor/xtended" name="vendor_xtended" remote="temp" />
     <project path="vendor/xtras" name="vendor_xtras" remote="temp" />
-    <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="temp" />
-    <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="temp" />
     
 </manifest>
