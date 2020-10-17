@@ -51,6 +51,7 @@
     <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="temp" />
 
     <!-- External Repos -->
+    <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="temp" />
     <project path="external/guice" name="external_guice" remote="temp" />
     <project path="external/selinux" name="external_selinux" remote="temp" />
     <project path="external/sqlite" name="external_sqlite" remote="temp" />
