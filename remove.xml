@@ -5,6 +5,7 @@
     <!-- Build -->
     <remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />
+    <remove-project name="platform/build/blueprint" />
 
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
