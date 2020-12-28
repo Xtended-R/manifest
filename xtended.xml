@@ -33,7 +33,7 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    <project path="build/blueprint" name="build_blueprint" remote="temp" />
+    <project path="build/blueprint" name="build_blueprint" remote="xtended" />
 
     <!-- device Repos -->
     <project path="device/xtended/sepolicy" name="device_xtended_sepolicy" remote="xtended" />
